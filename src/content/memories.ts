@@ -6,7 +6,7 @@ export const memories = [
             "A magical evening at the beach, where we watched the sunset.",
         date: "2023/03/19",
         location: "Santa Monica Beach",
-        photos: '/images/memories/1.jpg',
+        photos: '/images/memories/1.webp',
     },
     {
         id: 2,
@@ -15,7 +15,7 @@ export const memories = [
             "The happiest day of our lives, full of love and laughter.",
         date: "",
         location: "New York City",
-        photos: "/images/memories/2.jpg",
+        photos: "/images/memories/2.webp",
     },
     {
         id: 3,
@@ -24,7 +24,7 @@ export const memories = [
             "The happiest day of our lives, full of love and laughter.",
         date: "2024-02-29",
         location: "New York City",
-        photos: "/images/memories/3.jpg",
+        photos: "/images/memories/3.webp",
     },
     {
         id: 4,
@@ -33,7 +33,7 @@ export const memories = [
             "The happiest day of our lives, full of love and laughter.",
         date: "2024-06-19",
         location: "New York City",
-        photos: "/images/memories/4.png",
+        photos: "/images/memories/4.webp",
     },
     {
         id: 5,
@@ -42,7 +42,7 @@ export const memories = [
             "The happiest day of our lives, full of love and laughter.",
         date: "2024-08-25",
         location: "New York City",
-        photos: "/images/memories/5.PNG",
+        photos: "/images/memories/5.webp",
     },
     {
         id: 6,
@@ -51,55 +51,64 @@ export const memories = [
             "The happiest day of our lives, full of love and laughter.",
         date: "2024-12-07",
         location: "New York City",
-        photos: "/images/memories/6.jpg",
+        photos: "/images/memories/6.webp",
     },
     {
         id: 7,
-        title: "To many long video calls 📞",
+        title: "Holding you forever",
         description:
             "The happiest day of our lives, full of love and laughter.",
-        date: "2024-08-25",
+        date: "2024-12-07",
         location: "New York City",
-        photos: "/images/memories/7.jpg",
+        photos: "/images/memories/7.webp",
     },
     {
         id: 8,
-        title: "To many long video calls 📞",
+        title: "My Queen 👸🏻",
         description:
             "The happiest day of our lives, full of love and laughter.",
-        date: "2024-08-25",
+        date: "2024-12-07",
         location: "New York City",
-        photos: "/images/memories/8.JPG",
+        photos: "/images/memories/8.webp",
     },
     {
         id: 9,
-        title: "To many long video calls 📞",
+        title: "The most adorable perfect smile 🥹",
         description:
             "The happiest day of our lives, full of love and laughter.",
-        date: "2024-08-25",
+        date: "2024-12-08",
         location: "New York City",
-        photos: "/images/memories/9.png",
+        photos: "/images/memories/9.webp",
     },
     {
         id: 10,
-        title: "To many long video calls 📞",
+        title: "Perfectly made for eachother",
         description:
             "The happiest day of our lives, full of love and laughter.",
-        date: "2024-08-25",
+        date: "2024-12-08",
         location: "New York City",
-        photos: "/images/memories/10.png",
+        photos: "/images/memories/10.webp",
     },
     {
         id: 11,
-        title: "To many long video calls 📞",
+        title: "To many more longer calls 📞",
         description:
             "The happiest day of our lives, full of love and laughter.",
-        date: "2024-08-25",
+        date: "2024-12-25",
         location: "New York City",
-        photos: "/images/memories/11.PNG",
+        photos: "/images/memories/11.webp",
     },
     {
-        id: 12,
+        id: 11,
+        title: "Warmth of my eyes & 🫀",
+        description:
+            "The happiest day of our lives, full of love and laughter.",
+        date: "2024-12-07",
+        location: "New York City",
+        photos: "/images/memories/12.webp",
+    },
+    {
+        id: 13,
         title: "and endless memories with you...",
         description:
             "The happiest day of our lives, full of love and laughter.",
