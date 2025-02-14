@@ -4,7 +4,6 @@ export default {
     theme: {
         extend: {
             fontFamily: {
-                love: ["Love Ya Like A Sister", "cursive"],
                 dancing: ["Dancing Script", "cursive"],
             },
             keyframes: {

@@ -1,3 +1,4 @@
+import { Suspense } from "react";
 import BloomingFlower from "../../components/blooming-flower";
 import MemoryCard from "../../components/memory-card";
 import { memories } from "../../content/memories";
@@ -10,13 +11,21 @@ export default function Home() {
                     To this life and life after 💖 My 💎
                 </h1>
                 <p className='text-center text-md text-gray-600 mb-12 font-medium italic'>
-                    Celebrate our everlasting love with this enchanting blooming flower animation, symbolizing the beauty and growth of our bond. Happy Valentine's Day, my dearest.
+                    Celebrate our everlasting love with this enchanting blooming
+                    flower animation, symbolizing the beauty and growth of our
+                    bond. Happy Valentine's Day, my dearest.
                 </p>
             </div>
             <div className='fixed bottom-0 flex justify-around items-end w-full'>
-                <BloomingFlower />
-                <BloomingFlower />
-                <BloomingFlower />
+                <Suspense fallback={<div>Loading...</div>}>
+                    <BloomingFlower />
+                </Suspense>
+                <Suspense fallback={<div>Loading...</div>}>
+                    <BloomingFlower />
+                </Suspense>
+                <Suspense fallback={<div>Loading...</div>}>
+                    <BloomingFlower />
+                </Suspense>
             </div>
             <MemoryCard memories={memories} />
         </div>
