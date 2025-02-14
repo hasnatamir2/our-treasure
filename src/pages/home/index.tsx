@@ -19,7 +19,6 @@ export default function Home() {
             <div className='fixed bottom-0 flex justify-around items-end w-full'>
                 <LazyBloomingFlower />
                 <LazyBloomingFlower />
-                <LazyBloomingFlower />
             </div>
             <MemoryCard memories={memories} />
         </div>
