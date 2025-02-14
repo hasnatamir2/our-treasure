@@ -4,36 +4,108 @@ export const memories = [
         title: "Our First Date",
         description:
             "A magical evening at the beach, where we watched the sunset.",
-        date: "2020-06-12",
+        date: "2023/03/19",
         location: "Santa Monica Beach",
-        photos: ["/images/memories/1.JPG", "/images/memories/2.JPG"],
+        photos: '/images/memories/1.jpg',
     },
     {
         id: 2,
-        title: "Our Wedding",
+        title: "My Chotu Don",
         description:
             "The happiest day of our lives, full of love and laughter.",
-        date: "2021-09-18",
+        date: "",
         location: "New York City",
-        photos: ["/images/memories/3.jpg", "/images/memories/4.jpg"],
+        photos: "/images/memories/2.jpg",
     },
     {
         id: 3,
-        title: "Our Wedding",
+        title: "Always my Princess 👑",
         description:
             "The happiest day of our lives, full of love and laughter.",
-        date: "2021-09-18",
+        date: "2024-02-29",
         location: "New York City",
-        photos: ["/images/memories/3.jpg", "/images/memories/4.jpg"],
+        photos: "/images/memories/3.jpg",
     },
     {
         id: 4,
-        title: "Our Wedding",
+        title: "When WE finally put the rings 💍",
         description:
             "The happiest day of our lives, full of love and laughter.",
-        date: "2021-09-18",
+        date: "2024-06-19",
         location: "New York City",
-        photos: ["/images/memories/3.jpg", "/images/memories/4.jpg"],
+        photos: "/images/memories/4.png",
+    },
+    {
+        id: 5,
+        title: "To many long video calls 📞",
+        description:
+            "The happiest day of our lives, full of love and laughter.",
+        date: "2024-08-25",
+        location: "New York City",
+        photos: "/images/memories/5.PNG",
+    },
+    {
+        id: 6,
+        title: "QABOOL ha in every life 😍",
+        description:
+            "The happiest day of our lives, full of love and laughter.",
+        date: "2024-12-07",
+        location: "New York City",
+        photos: "/images/memories/6.jpg",
+    },
+    {
+        id: 7,
+        title: "To many long video calls 📞",
+        description:
+            "The happiest day of our lives, full of love and laughter.",
+        date: "2024-08-25",
+        location: "New York City",
+        photos: "/images/memories/7.jpg",
+    },
+    {
+        id: 8,
+        title: "To many long video calls 📞",
+        description:
+            "The happiest day of our lives, full of love and laughter.",
+        date: "2024-08-25",
+        location: "New York City",
+        photos: "/images/memories/8.JPG",
+    },
+    {
+        id: 9,
+        title: "To many long video calls 📞",
+        description:
+            "The happiest day of our lives, full of love and laughter.",
+        date: "2024-08-25",
+        location: "New York City",
+        photos: "/images/memories/9.png",
+    },
+    {
+        id: 10,
+        title: "To many long video calls 📞",
+        description:
+            "The happiest day of our lives, full of love and laughter.",
+        date: "2024-08-25",
+        location: "New York City",
+        photos: "/images/memories/10.png",
+    },
+    {
+        id: 11,
+        title: "To many long video calls 📞",
+        description:
+            "The happiest day of our lives, full of love and laughter.",
+        date: "2024-08-25",
+        location: "New York City",
+        photos: "/images/memories/11.PNG",
+    },
+    {
+        id: 12,
+        title: "and endless memories with you...",
+        description:
+            "The happiest day of our lives, full of love and laughter.",
+        date: "",
+        location: "New York City",
+        photos: "/more-to-come.jpg",
     },
     // Add more memories...
 ];

@@ -1,7 +1,8 @@
 import { useEffect, useRef, useState } from "react";
+import { IMemoryCard } from "../../interfaces/memory.interface";
 
 interface IMemoryProps {
-    memories: string[];
+    memories: IMemoryCard[];
 }
 
 export default function MemoryCard({ memories }: IMemoryProps) {
@@ -52,10 +53,10 @@ export default function MemoryCard({ memories }: IMemoryProps) {
             {/* Horizontal scroll container */}
             <div className='overflow-x-auto py-8'>
                 <div className='flex space-x-8 px-8'>
-                    {memories.map((src, index) => (
+                    {memories.map((memory, index) => (
                         <div
-                            key={index}
-                            className='relative flex-shrink-0 md:w-48 lg:w-64] w-[150px]'
+                            key={memory.id}
+                            className='relative flex-shrink-0 md:w-48 lg:w-64] w-[150px] transform hover:scale-105 transition duration-300'
                             style={{
                                 transform: `rotate(${
                                     (Math.random() - 0.5) * 10
@@ -64,17 +65,20 @@ export default function MemoryCard({ memories }: IMemoryProps) {
                         >
                             {/* Image styled like a retro printed photo */}
                             <img
-                                src={src}
+                                src={memory.photos}
                                 alt={`Retro image ${index + 1}`}
-                                className='block w-full h-auto border-4 border-white shadow-xl transform hover:scale-105 transition duration-300'
+                                className='block w-full h-auto border-4 border-white '
                                 style={{
                                     filter: "contrast(1.1) sepia(0.3)", // Retro image effect
                                 }}
                             />
 
-                            <div className='text-center mt-2 '>
-                                <p className='font-pacifico text-xs md:text-sm text-white'>
-                                    image.caption
+                            <div className='text-center p-2 bg-white shadow-xl flex flex-col'>
+                                <p className='font-pacifico text-xs md:text-sm text-gray'>
+                                    {memory.title}
+                                </p>
+                                <p className='text-[10px] font-extralight'>
+                                    {memory.date && `(${memory.date})`}
                                 </p>
                             </div>
 

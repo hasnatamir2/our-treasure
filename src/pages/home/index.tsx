@@ -1,24 +1,24 @@
 import BloomingFlower from "../../components/blooming-flower";
 import MemoryCard from "../../components/memory-card";
-import { images } from "../../content/memories";
+import { memories } from "../../content/memories";
 
 export default function Home() {
     return (
-        <div className='bg-dark md:pt-10 pt-4 bg-httern flex items-start flex-col md:h-sreen justify-around'>
+        <div className='bg-blac md:pt-10 pt-4 flex items-start flex-col md:h-sreen justify-around'>
             <div className='w-full px-4'>
                 <h1 className='text-4xl font-extrabold text-center text-pink-800 mb-8 tracking-wide'>
-                    To this life and life after 💖
+                    To this life and life after 💖 My 💎
                 </h1>
-                <p className='text-center text-lg text-gray-600 mb-12 font-medium italic'>
-                    A collection of memories wrapped in love and nostalgia.
+                <p className='text-center text-md text-gray-600 mb-12 font-medium italic'>
+                    Celebrate our everlasting love with this enchanting blooming flower animation, symbolizing the beauty and growth of our bond. Happy Valentine's Day, my dearest.
                 </p>
             </div>
-            <div className='absolute bottom-0 flex justify-around items-end w-full'>
+            <div className='fixed bottom-0 flex justify-around items-end w-full'>
                 <BloomingFlower />
                 <BloomingFlower />
                 <BloomingFlower />
             </div>
-            <MemoryCard memories={images} />
+            <MemoryCard memories={memories} />
         </div>
     );
 }

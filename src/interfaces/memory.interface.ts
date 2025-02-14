@@ -4,6 +4,6 @@ export interface IMemoryCard {
     description: string;
     date: string;
     location: string;
-    photos: Array<string>;
+    photos: string;
     funFact?: string;
 }
