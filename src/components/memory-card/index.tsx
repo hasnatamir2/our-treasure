@@ -1,6 +1,6 @@
 import { useEffect, useRef, useState } from "react";
 import { IMemoryCard } from "../../interfaces/memory.interface";
-import LazyLoad from 'react-lazyload';
+import LazyLoad from "react-lazyload";
 
 interface IMemoryProps {
     memories: IMemoryCard[];
@@ -66,17 +66,16 @@ export default function MemoryCard({ memories }: IMemoryProps) {
                         >
                             {/* Image styled like a retro printed photo */}
                             <LazyLoad height={200} offset={100}>
-
+                                <img
+                                    src={memory.photos}
+                                    alt={`Retro image ${index + 1}`}
+                                    loading='lazy'
+                                    className='block w-full h-auto border-4 border-white '
+                                    style={{
+                                        filter: "contrast(1.1) sepia(0.3)", // Retro image effect
+                                    }}
+                                />
                             </LazyLoad>
-                            <img
-                                src={memory.photos}
-                                alt={`Retro image ${index + 1}`}
-                                loading="lazy" 
-                                className='block w-full h-auto border-4 border-white '
-                                style={{
-                                    filter: "contrast(1.1) sepia(0.3)", // Retro image effect
-                                }}
-                            />
 
                             <div className='text-center p-2 bg-white shadow-xl flex flex-col'>
                                 <p className='font-pacifico text-xs md:text-sm text-gray'>

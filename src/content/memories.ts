@@ -4,13 +4,13 @@ export const memories = [
         title: "Our First Date",
         description:
             "A magical evening at the beach, where we watched the sunset.",
-        date: "2023/03/19",
+        date: "2023-03-19",
         location: "Santa Monica Beach",
         photos: '/images/memories/1.webp',
     },
     {
         id: 2,
-        title: "My Chotu Don",
+        title: "My Chotu Don 🔫💪🏼",
         description:
             "The happiest day of our lives, full of love and laughter.",
         date: "",

@@ -1,7 +1,7 @@
-import { Suspense } from "react";
-import BloomingFlower from "../../components/blooming-flower";
+import React from "react";
 import MemoryCard from "../../components/memory-card";
 import { memories } from "../../content/memories";
+const LazyBloomingFlower = React.lazy(() => import('../../components/blooming-flower'));
 
 export default function Home() {
     return (
@@ -17,15 +17,9 @@ export default function Home() {
                 </p>
             </div>
             <div className='fixed bottom-0 flex justify-around items-end w-full'>
-                <Suspense fallback={<div>Loading...</div>}>
-                    <BloomingFlower />
-                </Suspense>
-                <Suspense fallback={<div>Loading...</div>}>
-                    <BloomingFlower />
-                </Suspense>
-                <Suspense fallback={<div>Loading...</div>}>
-                    <BloomingFlower />
-                </Suspense>
+                <LazyBloomingFlower />
+                <LazyBloomingFlower />
+                <LazyBloomingFlower />
             </div>
             <MemoryCard memories={memories} />
         </div>
